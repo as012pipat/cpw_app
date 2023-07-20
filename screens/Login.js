@@ -41,7 +41,7 @@ const Login = ({navigation}) => {
         <InnerContainer>
           <PageLogo resizeMode="cover" source={require('./../assets/img/expo-bg1.png')} />
           <PageTitle>แอปหญิงตั้งครรภ์</PageTitle>
-          <SubTitle>Account Login99</SubTitle>
+          <SubTitle>Account Login</SubTitle>
 
           <Formik
             initialValues={{ email: '', password: '' }}
@@ -53,7 +53,7 @@ const Login = ({navigation}) => {
             {({ handleChange, handleBlur, handleSubmit, values }) => (
               <StyledFormArea>
                 <MyTextInput
-                  label="Email Address100"
+                  label="Email Address"
                   icon="mail"
                   placeholder="andyj@gmail.com"
                   placeholderTextColor={darkLight}
